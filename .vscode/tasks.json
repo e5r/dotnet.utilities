@@ -6,9 +6,10 @@
     "tasks": [
         {
             "taskName": "build",
-            "args": [ ],
+            "args": [
+                "${workspaceRoot}/sample/EndPoint.Sample.Web/EndPoint.Sample.Web.csproj"
+            ],
             "isBuildCommand": true,
-            "showOutput": "always",
             "problemMatcher": "$msCompile"
         }
     ]

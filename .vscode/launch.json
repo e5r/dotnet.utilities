@@ -10,6 +10,7 @@
             "args": [],
             "cwd": "${workspaceRoot}/sample/EndPoint.Sample.Web",
             "stopAtEntry": false,
+            "internalConsoleOptions": "openOnSessionStart",
             "launchBrowser": {
                 "enabled": true,
                 "args": "${auto-detect-url}",
